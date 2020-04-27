@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA8F597A2456BA72005D3F49 /* trafficLightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trafficLightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8F597A2456BA72005D3F49 /* Traffic Light App .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Light App .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8F597D2456BA72005D3F49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8F597F2456BA72005D3F49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FA8F59812456BA72005D3F49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FA8F597B2456BA72005D3F49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA8F597A2456BA72005D3F49 /* trafficLightApp.app */,
+				FA8F597A2456BA72005D3F49 /* Traffic Light App .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = trafficLightApp;
 			productName = trafficLightApp;
-			productReference = FA8F597A2456BA72005D3F49 /* trafficLightApp.app */;
+			productReference = FA8F597A2456BA72005D3F49 /* Traffic Light App .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,8 +291,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mybestcompany.trafficLightApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Traffic Light App ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,8 +310,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mybestcompany.trafficLightApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Traffic Light App ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
